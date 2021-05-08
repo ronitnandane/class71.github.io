@@ -1,0 +1,130 @@
+<html>
+
+<head>
+    <title>School Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">DPS Anand</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav bar">
+                <li><a href="#campus">Campus Life</a></li>
+                <li><a href="#celebration">Celebrations</a></li>
+                <li><a href="#whatsnew">What's New</a></li>
+                <li><a href="#alumini">Alumini</a></li>
+                <li><a href="#contactus">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+    <iframe id="video" width="727" height="409" src="https://www.youtube.com/embed/mulAWvQqOhw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <br>
+    <br>
+    <div class="container">
+        <div class="page-header" id="campus">
+            <h2 class="text-capitalize">Campus Life</h2>
+        </div>
+        <div class="row">
+            <div class="travel_mainDiv">
+                <img class="img-responsive" src="biology.jpeg">
+                <h4 class="text-capitalize"><kbd>biology lab</kbd></h4>
+                <hr>
+                <p class="text-muted text-left">It was built for students for learning about the biology subject.</p>
+            </div>
+            <div class="travel_mainDiv">
+                <img class="img-responsive" src="shooting.jpeg">
+                <h4 class="text-capitalize"><kbd>shooting range</kbd></h4>
+                <hr>
+                <p class="text-muted text-left">It was built for students for co-curicular activity and for some entertainment.</p>
+            </div>
+            <div class="travel_mainDiv">
+                <img class="img-responsive" src="chemistery.jpeg">
+                <h4 class="text-capitalize"><kbd>chemistry lab</kbd></h4>
+                <hr>
+                <p class="text-muted text-left">It was built for students for learning about the chemistry subject.</p>
+            </div>
+        </div>
+
+        <div class="page-header" id="celebration">
+            <h2 class="text-capitalize">school celebration</h2>
+        </div>
+        <div class="bg-primary movie_head" data-toggle="collapse" data-target="#school_achievement1">
+            <span class="glyphicon glyphicon-film"></span> 74th Independence Day Celebration <i class="fa fa-sort-desc"></i>
+        </div>
+
+        <div id="school_achievement1" class="collapse">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <img src="independence.jpg" class="img-responsive img-thumbnail">
+            </div>
+
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+                <h4 class="text-muted text-left">DPS Anand celebrates every Independence day very passionately and cheerfully. This Independence Day was also celebrated very passionately and cheerfully.</h4>
+            </div>
+        </div>
+        <div class="bg-primary movie_head" data-toggle="collapse" data-target="#school_achievement2">
+            <span class="glyphicon glyphicon-film"></span> Janmashtami Celebration <i class="fa fa-sort-desc"></i>
+        </div>
+
+        <div id="school_achievement2" class="collapse">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <img src="janmastami.jpeg" class="img-responsive img-thumbnail">
+            </div>
+
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+                <h4 class="text-muted text-left">DPS Anand celebrates every Janmashti very cheerfully. This Janmashtami was also celebrated very cheerfully.</h4>
+            </div>
+        </div>
+        
+        <div class="page-header" id="whatsnew">
+            <h2 class="text-capitalize">What's New</h2>
+        </div>
+
+        <ul class="list-group">
+            <li class="list-group-item list-group-item-success col-lg-12 col-md-12 col-sm-12 col-xs-12 environment_li">
+                <h2>Online Classes</h2>
+                <img src="online.jpg" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                <h4 class="list-group-item-text para">The school has very easily handled the pandemic situation of Covid-19 Virus. They didn't let stop the education of students by starting Online classes.</h4>
+            </li>
+            <li class="list-group-item list-group-item-warning col-lg-12 col-md-12 col-sm-12 col-xs-12 environment_li">
+                <h2>Shooting Range</h2>
+                <img src="shooting.jpeg" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                <h4 class="list-group-item-text">They made new shooting range for students while this lockdown.</h4>
+            </li>
+        </ul>
+        
+    </div>
+    <div class="container">
+        <div class="page-header" id="contactus">
+            <h2 class="text-capitalize" position="sticky">contact us</h2>
+        </div>
+        <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.5327841731646!2d72.88757351427417!3d22.596571337786415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e502e7fa9d813%3A0x34171e81c00ed937!2sDelhi%20Public%20School%20Anand!5e0!3m2!1sen!2sin!4v1619793475873!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <br>
+        <hr style="width: 100%">
+        <img src="yogesh.jpg" class="img-responsive img-circle col-lg-3 col-md-3 col-sm-3 col-xs-4">
+        <h3>Yogesh Jain</h3>
+        <div class="contact_1">
+            <a href="mailto:info@dpsanand.com?Subject=Hi">
+                <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;info@dpsanand.com</h5>
+            </a>
+            <a href="#">
+                <h5><i class="fa fa-phone-square"></i>&nbsp;&nbsp;+91 7574833664</h5>
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>

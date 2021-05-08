@@ -1,0 +1,56 @@
+#video {
+    width: 100%;
+    margin-top: 10px;
+}
+#map {
+    width: 100%;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.travel_mainDiv {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    border: 2px solid black;
+}
+.travel_mainDiv img {
+    width: 100%;
+    height: 300px;
+}
+.travel_mainDiv hr {
+    width: 100%;
+}
+.travel_mainDiv p {
+    margin: 20px;
+}
+#achievementsID {
+    padding-bottom: 10px;
+}
+.movie_head {
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    display: inline-block;
+}
+.movie_head i {
+    float: right;
+}
+.environment_li {
+    margin-top: 13px;
+}
+.environment_li h2 {
+    border-bottom: 2px solid black;
+    padding: 8px;
+}
+.environment_li img {
+    border-radius: 25px;
+}
+.environment_li h4 {
+    margin-top: 10px;
+    font-size: 15px;
+}
